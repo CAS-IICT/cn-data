@@ -1,0 +1,47 @@
+{
+    "name": "chinadata",
+    "version": "0.0.1",
+    "author": "devilyouwei",
+    "keywords": [
+        "china",
+        "bigdata"
+    ],
+    "description": "A simple crawler for china big data",
+    "main": "server.js",
+    "dependencies": {
+        "cheerio": "latest",
+        "mysql2": "latest",
+        "superagent": "latest",
+        "trim": "^1.0.0"
+    },
+    "devDependencies": {
+        "eslint": "^6.8.0",
+        "eslint-config-prettier": "^6.10.0",
+        "eslint-plugin-prettier": "^3.1.2",
+        "prettier": "^1.19.1"
+    },
+    "eslintConfig": {
+        "root": true,
+        "parserOptions": {
+            "ecmaVersion": 2017,
+            "parser": "babel-eslint"
+        },
+        "env": {
+            "es6": true,
+            "node": true
+        },
+        "plugins": [
+            "prettier"
+        ],
+        "extends": [
+            "eslint:recommended",
+            "plugin:prettier/recommended"
+        ],
+        "rules": {
+            "prettier/prettier": [
+                "error"
+            ]
+        }
+    },
+    "license": "MIT"
+}
